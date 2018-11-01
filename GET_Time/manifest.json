@@ -1,0 +1,19 @@
+{
+   "manifest_version":2,
+   "name":"我的时钟",
+   "version":"1.0",
+   "description":"我的第一个谷歌扩展程序",
+   "icons":{
+       "16":"img/shizhong16.png",
+       "48":"img/shizhong48.png",
+       "128":"img/shizhong128.png"
+   },
+   "browser_action":{
+      "default_icon":{
+           "19":"img/shizhong19.png",
+           "38":"img/shizhong38.png"
+      },
+      "default_title":"我的时钟",
+      "default_popup":"index.html"
+   }
+}
